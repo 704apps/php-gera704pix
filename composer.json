@@ -1,0 +1,23 @@
+{
+    "name": "704apps/php-gera704pix",
+    "description": "Biblioteca que gera um código copia e cola de acordo com os dados informados",
+    "type": "library",
+    "license": "CC0-1.0",
+    "autoload": {
+        "psr-4": {
+            "Apps704\\Gera704pix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Roseo",
+            "email": "eduardo.roseo@me2.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
